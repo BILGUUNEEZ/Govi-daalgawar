@@ -4,12 +4,21 @@
     top: 40px;
     left: 0;
     color: #fff;
-    width: 100%;
 
-    display: flex;
-    justify-content: space-between;
+    display: none;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     align-items: center;
-    /* margin: 25px 0; */
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.31) 21.88%, rgba(0, 0, 0, 0.12) 63.13%, rgba(0, 0, 0, 0) 87.88%);
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+}
+
+.navbar.sm {
+    display: grid;
+}
+
+.navbar div:last-of-type {
+    text-align: right;
 }
 
 .navbar .nav {
@@ -20,4 +29,26 @@
 .navbar .logo-wrap {
     display: grid;
     text-align: center;
+}
+
+.navbar i {
+    font-size: 22px;
+}
+
+#return {
+    display: none;
+}
+
+@media (min-width:992px) {
+    .navbar.sm {
+        display: none
+    }
+
+    .navbar {
+        display: grid;
+    }
+
+    #return {
+        display: unset;
+    }
 }
