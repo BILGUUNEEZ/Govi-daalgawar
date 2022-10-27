@@ -4,6 +4,7 @@
     position: relative;
     padding: 25px 25px 80px 25px;
     background-color: #F5F7F6;
+    font-size: 14px;
 }
 
 #footer .content {
@@ -49,6 +50,7 @@
     text-align: center;
     padding: 15px;
     border-top: 1px solid #ECECE6;
+    font-size: 12px;
 }
 
 @media (min-width:992px) {

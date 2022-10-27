@@ -62,6 +62,14 @@
     }
 }
 
+.btn {
+    cursor: pointer;
+}
+
+small {
+    font-size: 11px;
+}
+
 .container-xs {
     max-width: 640px;
 }
