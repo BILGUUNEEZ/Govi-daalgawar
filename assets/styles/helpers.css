@@ -78,6 +78,10 @@ small {
     cursor: pointer;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .m-0 {
     margin: 0;
 }
