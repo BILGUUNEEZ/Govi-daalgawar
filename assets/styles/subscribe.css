@@ -1,0 +1,10 @@
+#subscribe {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#subscribe * {
+    max-width: 600px;
+}

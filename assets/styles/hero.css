@@ -1,0 +1,18 @@
+#hero {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/hero.jpeg");
+    min-height: 100vh;
+
+    position: relative;
+}
+
+#hero .content {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: 80px;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%, -50%);
+    color: white;
+}

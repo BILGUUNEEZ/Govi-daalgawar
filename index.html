@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="stylesheet" href="assets/styles/helpers.css">
-    <link rel="stylesheet" href="assets/styles/home.css">
+    <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/navbar.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
+    <link rel="stylesheet" href="assets/styles/hero.css">
+    <link rel="stylesheet" href="assets/styles/collection.css">
+    <link rel="stylesheet" href="assets/styles/subscribe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" /> -->
 </head>
@@ -29,11 +34,11 @@
     </div>
     <div class="navbar container-fluid">
         <div class="nav">
-            <span>WOMEN</span>
-            <span>MEN</span>
-            <span>HOME</span>
-            <span>ACCESSORIES</span>
-            <span>ORGANIC</span>
+            <a href="#women">WOMEN</a>
+            <a href="#men">MEN</a>
+            <a href="#">HOME</a>
+            <a href="#">ACCESSORIES</a>
+            <a href="#">ORGANIC</a>
         </div>
         <div class="logo-wrap">
             <h1 class="m-0">GOBI</h1>
@@ -41,7 +46,7 @@
         </div>
         <div>
             <i class="fa fa-search"></i>
-            <input placeholder="SEARCH"></input>
+            <input placeholder="SEARCH">
             <i class="far fa-heart"></i>
             <i class="fa fa-shopping-bag"></i>
         </div>
@@ -56,7 +61,7 @@
             <div>SHOP NOW</div>
         </div>
     </section>
-    <section class="section container-fluid" id="section-2">
+    <section id="collection" class="section container-fluid">
         <div class="text-wrap">
             <h1>WINTER SPICE 2020</h1>
             <div>Infusion of summer pieces and cashmere silk blends.</div>
@@ -78,9 +83,82 @@
     <section id="men"></section>
     <section id="sale"></section>
     <section id="about-us"></section>
-    <section id="subscribe"></section>
+    <section id="subscribe" class="container">
+        <h1>Subscribe</h1>
+        <span>Sign up for emails and receive early access to new arrivals, sales, events + more.</span>
+        <div>
+            <input type="text" placeholder="Enter your email address">
+            <span>SUBMIT</span>
+        </div>
+        <p>By signing up, you will receive Gobi Cashmere offers, promotions and other commercial messages. You are
+            also agreeing to Gobi Cashmere's Privacy Policy. You may unsubscribe at any time.</p>
+    </section>
     <section id="footer" class="container-fluid">
-        footer
+        <div class="content">
+            <div class="list-wrap">
+                <span>
+                    <h5>ABOUT US</h5>
+                    <ul>
+                        <li>Our history</li>
+                        <li>Product Care</li>
+                        <li>Store Location</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </span>
+                <span>
+                    <h5>POLICY</h5>
+                    <ul>
+                        <li>Our history</li>
+                        <li>Product Care</li>
+                        <li>Store Location</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </span>
+                <span>
+                    <h5>CUSTOMER SERVICE</h5>
+                    <ul>
+                        <li>Our history</li>
+                        <li>Product Care</li>
+                        <li>Store Location</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </span>
+                <span>
+                    <h5>CUSTOMER SERVICE</h5>
+                    <ul>
+                        <li>Our history</li>
+                        <li>Product Care</li>
+                        <li>Store Location</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </span>
+            </div>
+            <div id="payment-methods">
+                <i class="fa-brands fa-cc-amex"></i>
+                <i class="fa-brands fa-cc-apple-pay"></i>
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-amex"></i>
+                <i class="fa-brands fa-cc-apple-pay"></i>
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+            </div>
+        </div>
+        <div id="social">
+            <h5>FOLLOW US</h5>
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+            </ul>
+            <small>GLOBAL-ENGLISH
+                <i class="fa fa-globe ml-1"></i>
+            </small>
+        </div>
+        <span id="copyright">All content Copyright © 2020 GOBI Cashmere</span>
     </section>
 </body>
 

@@ -1,0 +1,43 @@
+#footer {
+    padding: 80px 0;
+    background-color: #F5F7F6;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    position: relative;
+}
+
+#footer .content {
+    grid-column: span 9/span 9;
+    background-color: #fff;
+    padding: 50px 80px;
+}
+
+#footer .list-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .list-wrap li {
+    /* margin: 13px 0; */
+}
+
+#payment-methods {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+
+#payment-methods i {
+    font-size: 22px;
+}
+
+#social {
+    grid-column: span 3/span 3;
+    padding: 50px 80px;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+}

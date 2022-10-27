@@ -1,0 +1,23 @@
+.navbar {
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 25px 0; */
+}
+
+.navbar .nav {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar .logo-wrap {
+    display: grid;
+    text-align: center;
+}
