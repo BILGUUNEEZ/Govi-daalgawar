@@ -82,6 +82,10 @@ small {
     text-decoration: underline;
 }
 
+.line-though {
+    text-decoration-line: line-through;
+}
+
 .m-0 {
     margin: 0;
 }
@@ -124,4 +128,8 @@ small {
 
 .ml-2 {
     margin-left: 25px;
+}
+
+.red {
+    color: #B00020
 }
